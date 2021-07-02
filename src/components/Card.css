@@ -1,0 +1,96 @@
+.Card {
+  width: 300px;
+  height: 200px;
+  background-color: lightgrey;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  margin: 1rem;
+}
+
+.Card.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.Card .topSpace {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Card .topSpace .number {
+  width: 30px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card .topSpace .toggleCard {
+  background-color: rgb(241, 125, 125);
+  width: 30px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Card .topSpace .toggleCard.disabled {
+  background-color: rgb(2, 185, 2);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.Card .itemSSpace {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.Card .itemSSpace .itemS {
+  background-color: rgb(226, 209, 57);
+  width: 250px;
+  height: 40px;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Card .itemSSpace .itemS.disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.Card .itemSSpace .itemSModify {
+  background-color: rgb(226, 209, 57);
+  width: 40px;
+  height: 40px;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Card .itemSSpace .itemSModify.disabled {
+  opacity: 0.2;
+}
+
+.Card .print {
+  padding: 5px 10px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.Card .print.disabled {
+  opacity: 0.2;
+}

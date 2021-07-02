@@ -80,6 +80,8 @@ const Card = ({ space, wall, setWall }) => {
     }
     if (item1 && item2) {
       alert(`Impression de la double étiquette ${item1} / ${item2} !`);
+    } else if (!item1 & !item2) {
+      alert(`Uuuuh... there's nothing to print bro !`);
     } else {
       alert(`Impression de l'étiquette simple ${item1}${item2} !`);
     }

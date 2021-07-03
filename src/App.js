@@ -34,9 +34,9 @@ function App() {
             x: i,
             y: o,
             active: true,
-            item1: null,
+            item1: '',
             item1Active: false,
-            item2: null,
+            item2: '',
             item2Active: false,
           });
           //Incremente le numéro de card

@@ -37,6 +37,17 @@
   }
 }
 
+.App .creationSpace {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.App .creationSpace .creationButton {
+  margin: 10px;
+  width: 150px;
+}
+
 .App .row {
   display: flex;
 }
